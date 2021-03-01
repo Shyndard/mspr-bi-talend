@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:sui7YHKzE2PWqHebhLaKY1SDJBeP7b83IIcqTvug" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:T5bb/6ysq6B42dknIKlAUK4n2WvbZ/wXO9R6RSDo" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:F8AqMhHgFniqobmi+bbAPNfwJJmYOzyof+BfdvuE" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GwbCxrufUwebxNJ82jNGyZwrEEhSsmciOhMbtk15" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr_bi&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Bg2n/oUw0hdabR3W4kDoYj7oGcxRK51sHDTx1LnR44F2+g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sqiUIG7TjCpLbofD0xGkQJgdSJUQIoFqTMGPx33siL6IFQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7GfwoHpxEeu3Yo6YNux6GA - fournisseur" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;fournisseur&quot;"/>
@@ -184,72 +184,7 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_4TEFEHqEEeuYHsxxlHDW5g-tMap_1-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
-    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="convert_fournisseur">
-      <column comment="" key="true" length="10" name="NO_FOURNISSEUR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="NOM_FOURNISSEUR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="NORUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="100" name="RUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="CPOSTAL" nullable="true" pattern="" precision="0" sourceType="INT" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="100" name="VILLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="NOTEL" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="100" name="EMAIL" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="convert_fournisseur">
-        <mapperTableEntries name="NO_FOURNISSEUR" expression="new Integer(row1.NO_FOURNISSEUR).toString()" type="id_String"/>
-        <mapperTableEntries name="NOM_FOURNISSEUR" expression="row1.NOM_FOURNISSEUR " type="id_String" nullable="true"/>
-        <mapperTableEntries name="NORUE" expression="row1.NORUE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="RUE" expression="row1.RUE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="CPOSTAL" expression="new Integer(row1.CPOSTAL).toString()" type="id_String" nullable="true"/>
-        <mapperTableEntries name="VILLE" expression="row1.VILLE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="NOTEL" expression="row1.NOTEL " type="id_String" nullable="true"/>
-        <mapperTableEntries name="EMAIL" expression="row1.EMAIL " type="id_String" nullable="true"/>
-      </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="NO_FOURNISSEUR" type="id_Integer"/>
-        <mapperTableEntries name="NOM_FOURNISSEUR" type="id_String" nullable="true"/>
-        <mapperTableEntries name="NORUE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="RUE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="CPOSTAL" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="VILLE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="NOTEL" type="id_String" nullable="true"/>
-        <mapperTableEntries name="EMAIL" type="id_String" nullable="true"/>
-      </inputTables>
-    </nodeData>
-  </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="96">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -264,7 +199,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="fournisseur" name="sortie_fournisseur">
-      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="10" name="id_fournisseur" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="nom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -294,29 +229,29 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="sortie_fournisseur" activateCondensedTool="true" rejectInnerJoin="true">
-        <mapperTableEntries name="id" expression="convert_fournisseur.NO_FOURNISSEUR " type="id_String"/>
-        <mapperTableEntries name="nom" expression="convert_fournisseur.NOM_FOURNISSEUR " type="id_String" nullable="true"/>
-        <mapperTableEntries name="numero_rue" expression="convert_fournisseur.NORUE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="rue" expression="convert_fournisseur.RUE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="code_postal" expression="convert_fournisseur.CPOSTAL " type="id_String" nullable="true"/>
-        <mapperTableEntries name="ville" expression="convert_fournisseur.VILLE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="telephone" expression="convert_fournisseur.NOTEL " type="id_String" nullable="true"/>
-        <mapperTableEntries name="email" expression="convert_fournisseur.EMAIL " type="id_String" nullable="true"/>
+        <mapperTableEntries name="id_fournisseur" expression="new Integer(row1.NO_FOURNISSEUR).toString()" type="id_String"/>
+        <mapperTableEntries name="nom" expression="row1.NOM_FOURNISSEUR " type="id_String" nullable="true"/>
+        <mapperTableEntries name="numero_rue" expression="row1.NORUE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="rue" expression="row1.RUE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="code_postal" expression="new Integer(row1.CPOSTAL).toString()" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ville" expression="row1.VILLE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="telephone" expression="row1.NOTEL " type="id_String" nullable="true"/>
+        <mapperTableEntries name="email" expression="row1.EMAIL " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="convert_fournisseur" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="NO_FOURNISSEUR" type="id_String"/>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="NO_FOURNISSEUR" type="id_Integer"/>
         <mapperTableEntries name="NOM_FOURNISSEUR" type="id_String" nullable="true"/>
         <mapperTableEntries name="NORUE" type="id_String" nullable="true"/>
         <mapperTableEntries name="RUE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="CPOSTAL" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CPOSTAL" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="VILLE" type="id_String" nullable="true"/>
         <mapperTableEntries name="NOTEL" type="id_String" nullable="true"/>
         <mapperTableEntries name="EMAIL" type="id_String" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
-        <mapperTableEntries name="id" expression="convert_fournisseur.NO_FOURNISSEUR " type="id_String" operator="="/>
+        <mapperTableEntries name="id_fournisseur" expression="new Integer(row1.NO_FOURNISSEUR).toString()" type="id_String" operator="="/>
         <mapperTableEntries name="nom" type="id_String" nullable="true"/>
-        <mapperTableEntries name="numero_rue" type="id_String" nullable="true"/>
+        <mapperTableEntries name="numero_rue" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="rue" type="id_String" nullable="true"/>
         <mapperTableEntries name="code_postal" type="id_String" nullable="true"/>
         <mapperTableEntries name="ville" type="id_String" nullable="true"/>
@@ -325,7 +260,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_0XzOkHpyEeu3Yo6YNux6GA" show="false"/>
@@ -338,7 +273,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;mspr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rhgG6Nr2G7CJPEHJhW/HWHudax4dm4kbajw7ZiZQ3OB8hQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sdjxnuA3oTyWnTxm3Ujaq4tW6NvkiZ3nUmcSZmc5sflm5A=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_0XzOkHpyEeu3Yo6YNux6GA - fournisseur" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;fournisseur&quot;"/>
@@ -358,7 +293,7 @@
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="id_fournisseur"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="nom"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -378,7 +313,7 @@
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="fournisseur" name="tDBInput_2">
-      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="10" name="id_fournisseur" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="nom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -405,7 +340,7 @@
       <additionalProperties key="Comment" value="Représentation des ventes en fonction du site, du temps, du produit et des clients"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="96">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_0XzOkHpyEeu3Yo6YNux6GA" show="false"/>
@@ -418,7 +353,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;mspr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OslQfqlUdFrmRp2u84YUMXtvHUSNgZNlL0jpGJSMtBhMNQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ShKxDtngK76tpAz60Q3iZuNPwvEnkx+SBdlwLRaVnaR62g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;fournisseur&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -440,7 +375,7 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="id_fournisseur"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -489,7 +424,7 @@
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="fournisseur" name="tDBOutput_1">
-      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="10" name="id_fournisseur" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="nom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -516,7 +451,7 @@
       <additionalProperties key="Comment" value="Représentation des ventes en fonction du site, du temps, du produit et des clients"/>
     </metadata>
     <metadata connector="REJECT" label="fournisseur" name="REJECT">
-      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="10" name="id_fournisseur" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="nom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -545,13 +480,9 @@
       <additionalProperties key="Comment" value="Représentation des ventes en fonction du site, du temps, du produit et des clients"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="convert_fournisseur" lineStyle="0" metaname="convert_fournisseur" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="convert_fournisseur" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="sortie_fournisseur" lineStyle="0" metaname="sortie_fournisseur" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>

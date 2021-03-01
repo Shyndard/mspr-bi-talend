@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:/7gipjJ3n6XTuUsBAVa1d2mc7DAWMH3yliC0M3W0" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RE7Zz5uL2NV69mU6kVET9OWEJlJ/C7S4xhLENQ5h" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ojM9Ia/Xf8ySj80EwcrPKBy2ytUcnsyvNNKiiZvW" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eURF10VE8U2tXOsTYeWwz6fBq9F2aGduxX4wneDM" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr_bi&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:k9ClqUOqMzCuhvB1i9pY//pG+QaMgeP18tdhw/WwJ9ENsg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nM0I+0AkhY8McSrh/4v6NgVJju46OvaawYAyuGvw7UV9kQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7GfwoHpxEeu3Yo6YNux6GA - detail_commande" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;detail_commande&quot;"/>
@@ -240,7 +240,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr_bi&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MRalcIQfmBgBptP/sREL0ShBK1Ma/J/uWPUtLOxvyuxt9A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VVpeGa2Dx72P6xp5s9ZlDbAsPU2a3CfJvyvkNpUlRLdusg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7GfwoHpxEeu3Yo6YNux6GA - commande" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;commande&quot;"/>
@@ -293,7 +293,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr_bi&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9r0Wc4UBXs/UPbN1PDMgF23VERx4JS5znrfYgSvFJMnSEg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DYxebs098VTW6c78k6ABY3fsYkPatFYkV6LVxOUFbtgYMA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7GfwoHpxEeu3Yo6YNux6GA - produit" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;produit&quot;"/>
@@ -414,11 +414,11 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="vente_out" activateCondensedTool="true">
         <mapperTableEntries name="id_site" expression="new String(&quot;salut&quot;)" type="id_String"/>
-        <mapperTableEntries name="id_temps" expression="new Integer(row4.id).toString()" type="id_String"/>
+        <mapperTableEntries name="id_temps" expression="new Integer(row4.id_temps).toString()" type="id_String"/>
         <mapperTableEntries name="id_produit" expression="vente.IdProduit " type="id_String"/>
         <mapperTableEntries name="id_client" expression="new Integer(vente.IdClient).toString()" type="id_String"/>
         <mapperTableEntries name="quantite" expression="vente.quantite " type="id_Integer" nullable="true"/>
@@ -434,7 +434,7 @@
         <mapperTableEntries name="jour" type="id_Integer" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row4" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="id" expression="" type="id_Integer"/>
+        <mapperTableEntries name="id_temps" expression="" type="id_Integer"/>
         <mapperTableEntries name="annee" expression="vente.annee " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="mois" expression="vente.mois " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="jour" expression="vente.jour " type="id_Integer" nullable="true" operator="="/>
@@ -454,7 +454,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;mspr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dtgpqB7fR30o74PqtEivVbld2CuOYPs6CRLFn0kHhVCQtQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ihUb7VaBYICyWiuvOlsO1KdLfVZ+x8KE1IUkJL5yFqHJCQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_0XzOkHpyEeu3Yo6YNux6GA - temps" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;temps&quot;"/>
@@ -474,7 +474,7 @@
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="id_temps"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="annee"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -486,7 +486,7 @@
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="temps" name="tDBInput_4">
-      <column comment="" defaultValue="nextval('temps_id_seq'::regclass)" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" usefulColumn="true">
+      <column comment="" defaultValue="nextval('temps_id_seq'::regclass)" key="true" length="10" name="id_temps" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="annee" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
@@ -576,7 +576,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mspr&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;mspr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:m+lRgTkCLW39b4Iy33NPNAV/OW/L+V3XXu3xSId3ggL7Cg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WY7dp2cmqFiiCF/NSIQt84wZS/9AjEF0eI9bJl90qOmayA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;vente&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -643,7 +643,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;mspr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wnJsULuMm9VBCt577DAuESWAo6DwqutlEORDP7CW51kH9A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Bh/oJcYWrGaCq/pTh573CN5KORX8EiemimXWSvMBqAQNpQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;vente&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
