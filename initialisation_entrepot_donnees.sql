@@ -1,3 +1,5 @@
+-- SGBD PostgreSQL
+
 -- Création d'une table 'site' représentant les entrepots stockants les produits
 DROP TABLE IF EXISTS site;
 CREATE TABLE site (

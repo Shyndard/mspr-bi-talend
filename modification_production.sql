@@ -1,3 +1,5 @@
+-- SGBD MariaDB
+
 -- Modification du schéma actuel
 
 -- Création de la table entrepot qui fait le lien entre
