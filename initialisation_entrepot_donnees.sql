@@ -88,6 +88,17 @@ CREATE TABLE vente(
 );
 COMMENT ON TABLE vente IS 'Représentation des ventes en fonction du site, du temps, du produit et des clients';
 
+-- Création d'une table 'stock'
+DROP TABLE IF EXISTS stock;
+CREATE TABLE stock(
+	id_site varchar(10),
+	id_temps integer,
+	id_produit varchar(10),
+	quantite integer,
+	CONSTRAINT pk_stock PRIMARY KEY (id_site, id_temps, id_produit)
+);
+COMMENT ON TABLE stock IS 'Représentation des stocks en fonction du site, du temps et du produit';
+
 -- Génération des données pour la table 'temps' entre le 1er janvier 2000 et le 31 décembre 2099
 do $$
 declare
